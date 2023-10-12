@@ -1,0 +1,87 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(cloud.jpg);
+    background-position: center;  
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+#i1,#i2{
+   
+    text-align: center;
+    color: black;
+}
+.container{
+    width: 600px;
+    margin: 10px auto;
+    padding: 40px;
+
+}
+.inputs{
+    padding: 1rem 0 1rem 0;
+    text-align: center;
+    justify-content: center;
+    background: rgb(rgb(234, 229, 229));
+    height: 150px;
+}
+.inputs input[type="text"]{
+    height: 4rem;
+    width: 20rem;
+    background: black;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    border: 2px solid rgb(56, 37, 37);
+    border-radius: 3px;
+    margin-right:4px ;
+
+    
+}
+.inputs input[type="submit"]{
+    height: 3rem;
+    width: 4rem;
+    background: rgb(48, 19, 174);
+    font-weight: bold;
+    color: rgb(226, 216, 216);
+    font-size: 1rem;
+    margin-top:20px ;
+    /* border: none; */
+    
+    border-radius: 4px;
+}
+.display{
+    text-align: center;
+    width: 520px;
+    /* color: rgb(115, 21, 21);
+    font-size: large; */
+
+}
+.wrapper #cityoutput{
+   color: black; 
+   text-align: center;
+   font-size: 2rem;
+   font-style: italic;
+}
+.wrapper #description , #wind ,#temp{
+    color: black; 
+    text-align: center;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.wrapper{
+    margin: 0 9rem;
+    background-color: rgb(250, 247, 247);
+    height: 45vh;
+    margin: 50px auto;
+    border-radius: 2px;
+}
+.wrapper h2 ,span{
+    color: rgb(114, 33, 189);
+    font-size: 25px;
+}
